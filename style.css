@@ -18,6 +18,8 @@ h1, h2, h3 {
   float: right; }
   .socialicons .social {
     -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
     border-radius: 30px;
     overflow: hidden;
     float: left;
