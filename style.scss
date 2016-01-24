@@ -3,8 +3,6 @@ $primary-color: #333;
 
 $mobile: " screen and  (max-width: 768px)";
 
-$desktop: " screen and  (min-width: 1024px)";
-
 $maxwidth : 1024px;
 $maincontentwidth : 80%;
 $sidebarwidth : 20%;
@@ -110,9 +108,6 @@ img{
 p {
 	@media #{$mobile} {
 		font-size: 18px;
-	}
-	@media #{$desktop} {
-		font-size: 20px;
 	}
 }
 
